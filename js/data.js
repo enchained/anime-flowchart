@@ -40,7 +40,7 @@ var SHORT = {
       "workplace": {
         "desc": "**Popular workplace comedy**  \n(no drama!)",
         "id": 15809,
-        "name": "Hataraku Maou-sama! (The Devil is a Part-Timer!)"
+        "name": "The Devil is a Part-Timer!"
       }
     },
     "prev": "first",
@@ -105,7 +105,7 @@ var SHORT = {
       "gritty": {
         "desc": "**Something gritty, edgy**  \nand with epic music",
         "id": 16498,
-        "name": "Shingeki no Kyojin (Attack on Titan)"
+        "name": "Attack on Titan"
       },
       "arabian": {
         "desc": "**Arabian Nights** road trip adventure,  \nAvatar-style",
