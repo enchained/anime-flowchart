@@ -164,15 +164,17 @@
 
                 //set next
                 $('#next').text(next.text);
+                console.log(next.category);
                 if (next.category === 'extended') {
-                    event.preventDefault();
                     $('#next').addClass("disabled");
                     //$('#next').unbind().click(function() {
+                        //event.preventDefault();
                         // console.log("next clicked " + 'extended' );
                         //document.location.hash = 'first';
                     //});
                 } else {
                     // console.log(next.category);
+                    $('#next').removeClass("disabled");
                     $('#next').unbind().click(function() {
                         event.preventDefault();
                         // console.log("next clicked " + next.category );
