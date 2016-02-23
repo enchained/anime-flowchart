@@ -108,7 +108,7 @@
             window.onhashchange = function() {
                 var fragment = document.location.hash;
                 //call page filling based on path fragment
-                console.log("hash change event " + fragment);
+                //console.log("hash change event " + fragment);
                 load_category(fragment.replace('#', ''));
             };
             // window.onpopstate = function() {
@@ -166,10 +166,11 @@
                 $('#next').text(next.text);
                 if (next.category === 'extended') {
                     event.preventDefault();
-                    $('#next').unbind().click(function() {
+                    $('#next').addClass("disabled");
+                    //$('#next').unbind().click(function() {
                         // console.log("next clicked " + 'extended' );
                         //document.location.hash = 'first';
-                    });
+                    //});
                 } else {
                     // console.log(next.category);
                     $('#next').unbind().click(function() {
