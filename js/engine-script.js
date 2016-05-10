@@ -70,7 +70,7 @@ $(document).ready(function() {
         } else {
             // console.log(next.category);
             $('#next').removeClass("disabled");
-            $('#next').unbind().click(function() {
+            $('#next').unbind().click(function(event) {
                 event.preventDefault();
                 // console.log("next clicked " + next.category );
                 document.location.hash = next.category;
